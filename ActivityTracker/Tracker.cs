@@ -51,7 +51,7 @@ namespace ActivityTracker
                 _Logs = JsonConvert.DeserializeObject<List<TrackerLog>>(jsonString);
             }
 
-            if (_Logs.LastOrDefault().LogOut == null)
+            if (_Logs.Any() && _Logs.LastOrDefault()?.LogOut == null)
                 _CurrentTracker = _Logs.LastOrDefault();
             else
                 Start();
