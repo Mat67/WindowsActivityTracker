@@ -14,10 +14,17 @@ namespace ActivityTracker
         internal static void Init()
         {
             Microsoft.Win32.SystemEvents.SessionSwitch += new Microsoft.Win32.SessionSwitchEventHandler(SystemEvents_SessionSwitch);
+            SystemEvents.SessionEnded += SystemEvents_SessionEnded;
             _Tracker = new Tracker();
             _Tracker.Init();
         }
+
+        private static void SystemEvents_SessionEnded(object sender, SessionEndedEventArgs e)
+        {
+            _Tracker.Stop();
+        }
         
+
         private static Tracker _Tracker;
 
         public static Tracker GetTracker()

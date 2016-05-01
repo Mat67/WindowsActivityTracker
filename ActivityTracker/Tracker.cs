@@ -25,14 +25,30 @@ namespace ActivityTracker
         public TimeSpan GetToDayActivity()
         {
             var tmp = _Logs.Where(l => l.LogIn.Value.Date == DateTime.Now.Date);
-            return new TimeSpan(tmp.Select(s => (s.LogOut == null ? DateTime.Now : s.LogOut) - s.LogIn).Sum(s => s.Value.Ticks));
+            if (tmp.Any())
+                return new TimeSpan(tmp.Select(s => (s.LogOut == null ? DateTime.Now : s.LogOut) - s.LogIn).Sum(s => s.Value.Ticks));
+            return DateTime.Now - DateTime.Now.Date;
         }
 
         public TimeSpan GetSessionActivity()
         {
             var tmp = _Logs.Where(l => l.LogIn.Value.Date == DateTime.Now.Date);
-            var time = (tmp.LastOrDefault().LogOut == null ? DateTime.Now : tmp.LastOrDefault().LogOut) - tmp.LastOrDefault().LogIn;
-            return time.Value;
+            if (tmp.Any())
+            {
+                var time = (tmp.LastOrDefault().LogOut == null ? DateTime.Now : tmp.LastOrDefault().LogOut) - tmp.LastOrDefault().LogIn;
+                return time.Value;
+            }
+            else
+            {
+                tmp = _Logs.Where(l => l.LogIn.Value.Date == DateTime.Now.Date.AddDays(-1));
+                if (tmp.Any() && tmp.LastOrDefault().LogOut == null)
+                {
+                    var time = DateTime.Now - tmp.LastOrDefault().LogIn.Value;
+                    return time;
+                }
+            }
+
+            return new TimeSpan();
         }
 
 
