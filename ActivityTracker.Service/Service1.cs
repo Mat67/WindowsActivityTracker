@@ -10,16 +10,15 @@ using System.Threading.Tasks;
 
 namespace ActivityTracker.Service
 {
-    public partial class ActivityTrackerService : ServiceBase
+    public partial class Service1 : ServiceBase
     {
-        public ActivityTrackerService()
+        public Service1()
         {
             InitializeComponent();
         }
 
         protected override void OnStart(string[] args)
         {
-            Listener.Init();
         }
 
         protected override void OnStop()

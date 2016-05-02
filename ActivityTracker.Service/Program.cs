@@ -17,7 +17,7 @@ namespace ActivityTracker.Service
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new ActivityTrackerService()
+                new Service1()
             };
             ServiceBase.Run(ServicesToRun);
         }
