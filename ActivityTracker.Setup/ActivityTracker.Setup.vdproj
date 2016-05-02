@@ -357,17 +357,6 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_F012531F504B4F6C850C315FCFD82AD4"
-                    {
-                    "Name" = "8:Icones"
-                    "AlwaysCreate" = "11:FALSE"
-                    "Condition" = "8:"
-                    "Transitive" = "11:FALSE"
-                    "Property" = "8:_6ECA3ED7FA564173A92B8F05A1F91A85"
-                        "Folders"
-                        {
-                        }
-                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_17146F179F3B4CDCA27CFE1ED2091009"
@@ -442,7 +431,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ActivityTracker.Setup"
         "ProductCode" = "8:{F9D948F1-8367-4C0A-A599-CF2347F32E2F}"
-        "PackageCode" = "8:{5DAE5911-B2E4-440C-9616-BB35BF1D9BE8}"
+        "PackageCode" = "8:{42A7FF94-6A1B-4ADC-89F8-455903D00506}"
         "UpgradeCode" = "8:{17B79DA2-F236-4683-A49C-8E0AD0AE602D}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -1031,12 +1020,12 @@
                 {
                 }
             }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_E0F8528EC7F24044987A7E05296ECE6E"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_7D560BA9EF1E4E679556570DFF241FF7"
             {
             "SourcePath" = "8:"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_F012531F504B4F6C850C315FCFD82AD4"
+            "Folder" = "8:_0C1BE775043C4784B5818FD18EC5027D"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1053,7 +1042,7 @@
             "ProjectOutputGroupRegister" = "3:1"
             "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:ContentFiles"
-            "OutputProjectGuid" = "8:{7FA36022-5BD0-4CE9-8DF1-4F9663F7DDC3}"
+            "OutputProjectGuid" = "8:{CF80B9F5-6802-4E81-942D-9ABB41A71BE8}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {
