@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ActivityTracker.Core
 {
-    public class Class1
+    public class TrackerLog
     {
+        public DateTime? LogIn { get; set; }
+
+        public DateTime? LogOut { get; set; }
     }
 }
