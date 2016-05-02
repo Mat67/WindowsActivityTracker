@@ -58,12 +58,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ActivityTracker\ActivityTracker.csproj">
-      <Project>{d94e77f5-f832-4ea9-97f8-dcf63dea6bf1}</Project>
-      <Name>ActivityTracker</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <Choose>

@@ -14,18 +14,18 @@ namespace ActivityTracker.Tests
         {
 
 
-            var list = new List<TrackerLog>();
-            list.Add(new TrackerLog() { LogIn = DateTime.Now });
-            list.Add(new TrackerLog() { LogOut = DateTime.Now.AddMinutes(30) });
-            list.Add(new TrackerLog() { LogIn = DateTime.Now.AddMinutes(90) });
-            list.Add(new TrackerLog() { LogOut = DateTime.Now.AddMinutes(100) });
-            var json = JsonConvert.SerializeObject(list);
+            //var list = new List<TrackerLog>();
+            //list.Add(new TrackerLog() { LogIn = DateTime.Now });
+            //list.Add(new TrackerLog() { LogOut = DateTime.Now.AddMinutes(30) });
+            //list.Add(new TrackerLog() { LogIn = DateTime.Now.AddMinutes(90) });
+            //list.Add(new TrackerLog() { LogOut = DateTime.Now.AddMinutes(100) });
+            //var json = JsonConvert.SerializeObject(list);
 
-            var lin = list.Max(m => m.LogIn);
-            var lout = list.Max(m => m.LogOut);
-            var a = lout - lin;
+            //var lin = list.Max(m => m.LogIn);
+            //var lout = list.Max(m => m.LogOut);
+            //var a = lout - lin;
 
-            var r = JsonConvert.DeserializeObject<List<TrackerLog>>(json);
+            //var r = JsonConvert.DeserializeObject<List<TrackerLog>>(json);
         }
     }
 }
