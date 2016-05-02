@@ -1,6 +1,6 @@
 ﻿namespace ActivityTracker.Service
 {
-    partial class Service1
+    partial class ActivityTracker
     {
         /// <summary> 
         /// Variable nécessaire au concepteur.
@@ -28,8 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            this.ServiceName = "Service1";
+            // 
+            // ActivityTracker
+            // 
+            this.CanHandlePowerEvent = true;
+            this.CanHandleSessionChangeEvent = true;
+            this.CanStop = false;
+            this.ServiceName = "ActivityTracker";
+
         }
 
         #endregion

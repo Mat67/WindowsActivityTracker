@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,7 @@ namespace ActivityTracker.Core
     public class Tracker
     {
         private string path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\ActivityTracker";
+        //private string path = @"C:\Users\Mathieu\AppData\Roaming\ActivityTracker" + @"\ActivityTracker";
         private string file = "ActivityTracker.json";
 
         private TrackerLog _CurrentTracker;
