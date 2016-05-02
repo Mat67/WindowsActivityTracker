@@ -15,8 +15,20 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_0A2440F5A50347B195C308231A01541A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_21F7A2154C0A29B4E994FB5095A13F37"
         "OwnerKey" = "8:_56C04DB8DD1C4B8DB04B5E47B37F83E0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_21F7A2154C0A29B4E994FB5095A13F37"
+        "OwnerKey" = "8:_0A2440F5A50347B195C308231A01541A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -34,6 +46,12 @@
         "Entry"
         {
         "MsmKey" = "8:_D5BD271A95713B8E82D97B84067E7B79"
+        "OwnerKey" = "8:_0A2440F5A50347B195C308231A01541A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D5BD271A95713B8E82D97B84067E7B79"
         "OwnerKey" = "8:_56C04DB8DD1C4B8DB04B5E47B37F83E0"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -45,8 +63,20 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_DF731942D4A8D68275EBCCAF9EBA767A"
+        "OwnerKey" = "8:_0A2440F5A50347B195C308231A01541A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_21F7A2154C0A29B4E994FB5095A13F37"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_0A2440F5A50347B195C308231A01541A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -139,6 +169,62 @@
     {
         "CustomAction"
         {
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_1DBC17E4E85B45C3AC0A5A907B07614E"
+            {
+            "Name" = "8:Sortie principale from ActivityTracker.Service (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_0A2440F5A50347B195C308231A01541A"
+            "FileType" = "3:2"
+            "InstallAction" = "3:4"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_8D8A4AA1_5425_48CC_91E0_15A3D2491AE4"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_64085ECD0AF34496B5ED03964B436B54"
+            {
+            "Name" = "8:Sortie principale from ActivityTracker.Service (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_0A2440F5A50347B195C308231A01541A"
+            "FileType" = "3:2"
+            "InstallAction" = "3:1"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_47E9E118_7A11_43DD_BD49_779E3A673B54"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_8DCC209D217840B6A2BD183C51309263"
+            {
+            "Name" = "8:Sortie principale from ActivityTracker.Service (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_0A2440F5A50347B195C308231A01541A"
+            "FileType" = "3:2"
+            "InstallAction" = "3:3"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_CF7391D0_95A1_4E6E_AFF2_045BA811BDED"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_920D70CAF613498E9F206855468E7722"
+            {
+            "Name" = "8:Sortie principale from ActivityTracker.Service (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_0A2440F5A50347B195C308231A01541A"
+            "FileType" = "3:2"
+            "InstallAction" = "3:2"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_A5DE687C_99E7_4F3E_83CF_608953AD1B7C"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
         }
         "DefaultFeature"
         {
@@ -889,6 +975,34 @@
         }
         "ProjectOutput"
         {
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_0A2440F5A50347B195C308231A01541A"
+            {
+            "SourcePath" = "8:..\\ActivityTracker.Service\\obj\\Debug\\ActivityTracker.Service.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_0C1BE775043C4784B5818FD18EC5027D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{5B8C5B26-4AC2-4E44-8671-C02ADFA1CD81}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_56C04DB8DD1C4B8DB04B5E47B37F83E0"
             {
             "SourcePath" = "8:..\\ActivityTracker.WPF\\obj\\Debug\\ActivityTracker.WPF.exe"
